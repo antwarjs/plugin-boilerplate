@@ -3,22 +3,22 @@
 
 module.exports = function() {
   return {
-    headContent: function(options) {
+    headContent: function(o) {
       // this should return a React element
     },
-    extra: function(paths, config) {
+    extra: function(o) {
       // this should return an object in format
       // {<filename>: <content>}
     },
-    preProcessItems: function(posts) {
+    preProcessItems: function(items) {
       // you can manipulate items and their metadata here
       // before they are processed
-      return posts;
+      return items;
     },
-    postProcessItems: function(posts) {
+    postProcessItems: function(items) {
       // you can manipulate items and their metadata here
       // after they have been processed
-      return posts;
+      return items;
     },
   };
 };
