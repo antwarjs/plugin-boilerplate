@@ -2,7 +2,7 @@
   "name": "antwar-plugin-boilerplate",
   "description": "Boilerplate for Antwar plugins",
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "dependencies": {},
   "devDependencies": {},
   "repository": {
