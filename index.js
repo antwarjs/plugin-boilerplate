@@ -3,6 +3,9 @@
 
 module.exports = function() {
   return {
+    bodyContent: function(o) {
+      // this should return a React element
+    },
     headContent: function(o) {
       // this should return a React element
     },
